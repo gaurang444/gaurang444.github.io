@@ -1,0 +1,320 @@
+.bod{
+    background: url("https://cdn-images-1.medium.com/max/1920/1*vXjx4Y7EgQBwALkaeZJ0Cg.jpeg");
+    background-size: cover;
+
+
+
+     margin:0px;
+    padding:0px;
+
+
+    width:100%;
+    height:630px;
+    overflow:hidden;
+
+}
+
+.bod .bubbles{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.bod .bubbles li{
+    position: absolute;
+    list-style: none;
+    width:20px;
+    height:20px;
+    display:block;
+    background: rgba(255,255,255,.2);
+    animation:animate 25s linear infinite;
+    bottom: -150px;
+}
+.bod .bubbles li:nth-child(1){
+    left:25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.bod .bubbles li:nth-child(2){
+    left:10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+
+}
+
+.bod .bubbles li:nth-child(3){
+    left:70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+
+}
+
+.bod .bubbles li:nth-child(4){
+    left:40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 18s;
+    animation-duration: 18s;
+    animation-delay: 0s;
+
+}
+
+.bod .bubbles li:nth-child(5){
+    left:65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+
+}
+
+.bod .bubbles li:nth-child(6){
+    left:75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+
+}
+
+.bod .bubbles li:nth-child(7){
+    left:35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+
+}
+
+.bod .bubbles li:nth-child(8){
+    left:50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+
+}
+
+.bod .bubbles li:nth-child(9){
+    left:20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+
+}
+
+.bod .bubbles li:nth-child(10){
+    left:85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+
+}
+@keyframes animate{
+    0%{
+        opacity: 1;
+        border-radius: 0;
+        transform: translateY(0) rotate(0deg);
+    }
+    100%{
+        opacity: 0;
+        border-radius: 50%;
+        transform: translateY(-1000px) rotate(720deg);
+    }
+}
+.bod .bubbles li{
+    background:orange;
+}
+.bod .intro{
+    top:50%;
+    left:50%;
+    margin-top: 210px;
+    margin-left: 300px;
+
+
+}
+.bod .intro h1{
+    color:white;
+    font-size: 5em;
+    font-family: 'Mogra', cursive;
+}
+
+.bod .intro h2{
+    color:white;
+    font-size: 5em;
+    font-family: 'Seaweed Script', cursive;
+}
+.good h2{
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+
+    text-align: center;
+
+}
+.good{
+    width:100%;
+    background:grey
+
+}
+.good ul li{
+    list-style: none;
+    color:aqua;
+    font-size: 20px;
+    font-family:
+    font-weight:bold;
+    padding: 10px;
+
+
+}
+.woww{
+    width:30%;
+    height:200px;
+
+
+
+    margin-top: 5px;
+
+}
+.wowwd img{
+
+    height: 200px;
+    width:100%;
+    opacity: 0.3;
+
+}
+.wowwc img{
+   height: 200px;
+    width:100%;
+    opacity: 0.3;
+}
+.wowwe img{
+    height: 200px;
+    width:100%;
+    opacity: 0.3;
+}
+.wowwa img{
+    height: 200px;
+    width:100%;
+    opacity: 0.3;
+}
+
+
+.wowwb img{
+    height: 200px;
+    width:100%;
+    opacity: 0.3;
+}
+.wowwf img{
+    height: 200px;
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+
+.ok{
+    width:100%;
+    height:500px;
+    background-image:url(http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg);
+    background-size: cover;
+
+
+}
+.ok .lnm h1{
+    font-family: 'Pacifico', cursive;
+    font-size:4em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+    color:white;
+
+}
+.box{
+
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 40px;
+
+}
+.circle{
+    width:100px;
+    padding: 50px 0;
+    line-height: 0px;
+    background: pink;
+    color:white;
+    margin-right: 30px;
+    border:1px solid pink;
+    color:black;
+    font-weight: bold;
+    font-family;
+
+    border-radius: 60px;
+    cursor:pointer;
+    transition:1s transform .3s;
+}
+.circle:hover{
+    background-color: salmon;
+    transform: rotate(360deg);
+
+}
+
+.ok .lnm h2{
+    font-family: 'Dancing Script', cursive;
+    font-size:2em;
+    font-weight: bold;
+
+    text-align:center;
+    color:white;
+
+}
+.hi{
+    margin-left:560px;
+}
+.hi i{
+    color:black;
+    position:relative;
+}
+.hi i:hover{
+    color:brown;
+    padding-left: 10px;
+}
+.fot{
+    width:100%;
+    height:200px;
+    background:black;
+}
+.fot h1{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.hii i{
+    color:orange;
+    position:relative;
+    padding:0;
+}
+.myicons{
+    text-align: center;
+    margin-top: 30px;
+}
+.myicons a{
+    padding: 15px;
+}
+.hii i:hover{
+    color:aqua;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.woww img:hover{
+    opacity: 1;
+
+}
